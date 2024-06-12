@@ -32,12 +32,12 @@ photo_dict = {}
 #ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 
 # Retrieve your Telegram API credentials and bot token
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-RemoveBG_API = os.environ.get("RemoveBG_API")
-FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL")
-SUNRISES_PIC = os.environ.get("SUNRISES_PIC") #Telegraph link Start Pic 
+API_ID = int(os.environ.get("API_ID", "10811400"))
+API_HASH = os.environ.get("API_HASH", "191bf5ae7a6c39771e7b13cf4ffd1279")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6409704598:AAEZ0VovjAMFzkAoFzinq8kw7n3sgwhauTM")
+RemoveBG_API = os.environ.get("RemoveBG_API", "24Lc9RTfcMEXPx1Y7MU89afF")
+FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "Sunrises24botupdates")
+SUNRISES_PIC = os.environ.get("SUNRISES_PIC", "https://graph.org/file/816ba6f7302272f79f2b5.jpg") #Telegraph link Start Pic 
 
 API = "https://apis.xditya.me/lyrics?song="
 
